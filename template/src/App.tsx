@@ -11,8 +11,25 @@ const MainCon = styled.div`
 function App() {
   return (
     <MainCon>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header className="justify-center items-center flex flex-col">
+        <div className="flex mb-20">
+          <img src={logo} className="w-32" alt="logo" />
+          <img src="./styled.png" className="w-32" alt="logo" />
+          <img src="./tailwindcss.png" className="w-32" alt="logo" />
+        </div>
+
+        <p>
+          React app with styled-components , tailwindcss and typescript by
+          <a
+            className="text-blue-500"
+            href="https://kiranyadav.tech"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            Kiran Yadav
+          </a>{" "}
+        </p>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
