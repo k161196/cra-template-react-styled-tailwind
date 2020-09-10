@@ -1,19 +1,4 @@
 {
-  "name": "cra-template-react-styled-tailwind",
-  "version": "0.1.0",
-  "main": "template.json",
-  "keywords": [
-    "react",
-    "create-react-app",
-    "cra-template",
-    "tailwindcss",
-    "styled-componets",
-    "prettier"
-  ],
-  "files": [
-    "template",
-    "template.json"
-  ],
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -36,21 +21,6 @@
     "build": "yarn run build:css react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
